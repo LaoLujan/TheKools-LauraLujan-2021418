@@ -5,10 +5,21 @@
  */
 package the.kools.people;
 
+import the.kools.interfaces.Driving;
+
 /**
  *
  * @author NHLUJ
  */
-public class Courier {
+public class Courier extends Person implements Driving {
+    public Courier (String name, int age){
+super (name, age);
+}
+    public void workingMoodOn(){
+        System.out.println(name + "This man deliver envelopes all day");
+    }
+    public void drive(){
+        System.out.println(name + "He drives to work");
+    }
     
 }

@@ -5,11 +5,14 @@
  */
 package the.kools;
 
+import the.kools.items.Book;
 import the.kools.items.Item;
 import the.kools.items.Mop;
 import the.kools.items.Tool;
 import the.kools.items.Vehicle;
+import the.kools.items.miniVan;
 import the.kools.people.Cleaner;
+import the.kools.people.Courier;
 import the.kools.people.Gardener; // Importing all what we need to start creating actual people with a specific role
 import the.kools.people.Person;
 import the.kools.people.Student;
@@ -31,6 +34,8 @@ public class TheKools {
         Person gardener = new Gardener ("Laura", 33);// My first person is a gardener called Laura and has 33 years old
         Person cleaner = new Cleaner ("Dean", 45);
         Person teacher = new Teacher ("Sam", 77);
+        Person student = new Student ("Gabriela", 21);
+        Person courier = new Courier ("Ann Post", 47);
    
                 
                 
@@ -38,6 +43,8 @@ public class TheKools {
         Item tool = new Tool(); // I should spencified what type of tool by anyway she is working with a tool
         Item mop = new Mop();
         Item vehicle = new Vehicle(); 
+        Item book = new Book();
+        Item minivan = new miniVan();
         
         //ON DUTY
         gardener.workingMoodOn(); //she is on duty now and she can walk
@@ -48,6 +55,12 @@ public class TheKools {
         
         teacher.workingMoodOn();
         ((Teacher)teacher).drive();
+        
+        student.workingMoodOn();
+        ((Student)student).Cycle();
+        
+        courier.workingMoodOn();
+        ((Courier)courier).drive();
     }
     
 }
