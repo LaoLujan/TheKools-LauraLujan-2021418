@@ -5,6 +5,11 @@
  */
 package the.kools;
 
+import the.kools.items.Item;
+import the.kools.items.Tool;
+import the.kools.people.Gardener; // Importing all what we need to start creating actual people with a specific role
+import the.kools.people.Person;
+
 /**
  *
  * @author NHLUJ
@@ -16,6 +21,12 @@ public class TheKools {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Person gardener = new Gardener ("Laura", 33);
+        Item tool = new Tool();
+        
+        gardener.workingMoodOn();
+        ((Gardener)gardener).walk();
+        
     }
     
 }
