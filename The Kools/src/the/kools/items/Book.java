@@ -9,6 +9,9 @@ package the.kools.items;
  *
  * @author NHLUJ
  */
-public class Book {
+public class Book extends Item {
+    public Book(){
+    super ("Book");
+    }
     
 }

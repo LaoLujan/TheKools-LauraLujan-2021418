@@ -5,10 +5,20 @@
  */
 package the.kools.people;
 
+import the.kools.interfaces.Cycling;
+
 /**
  *
  * @author NHLUJ
  */
-public class Student {
+public class Student extends Person implements Cycling {
+    public Student (String name, int age){
+    super (name, age);
+    }
+    public void workingMoodOn(){
+        System.out.println(name + "This Student is very punctual");
+    }
+    public void Cycle(){
+        System.out.println(name + "Cycle every day to school");}
     
 }
