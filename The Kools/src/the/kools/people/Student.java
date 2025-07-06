@@ -20,5 +20,11 @@ public class Student extends Person implements Cycling {
     }
     public void Cycle(){
         System.out.println(name + "Cycle every day to school");}
+
+    @Override
+    public void cycle() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }//Again some errors about making abstract mehtods. I still cannot understand this bit
+    // So the suggestions in netbeans added this Override
     
 }
