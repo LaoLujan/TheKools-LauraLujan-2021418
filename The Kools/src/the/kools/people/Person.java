@@ -8,7 +8,10 @@ package the.kools.people;
 /**
  *
  * @author NHLUJ
- */
-public class Person {
-    
+ */  
+/** I made this class abstract, I cannot instantiated it or create an object from it, it is just a general class
+that has to be used for the subclasses. It contains general characteristics that all the people have */
+public abstract class Person {
+    protected String name;
+    protected int age;
 }
