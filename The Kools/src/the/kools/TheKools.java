@@ -8,10 +8,12 @@ package the.kools;
 import the.kools.items.Item;
 import the.kools.items.Mop;
 import the.kools.items.Tool;
+import the.kools.items.Vehicle;
 import the.kools.people.Cleaner;
 import the.kools.people.Gardener; // Importing all what we need to start creating actual people with a specific role
 import the.kools.people.Person;
 import the.kools.people.Student;
+import the.kools.people.Teacher;
 
 /**
  *
@@ -28,12 +30,14 @@ public class TheKools {
         //NEW PEOPLE
         Person gardener = new Gardener ("Laura", 33);// My first person is a gardener called Laura and has 33 years old
         Person cleaner = new Cleaner ("Dean", 45);
+        Person teacher = new Teacher ("Sam", 77);
    
                 
                 
         //NEW ITEMS        
         Item tool = new Tool(); // I should spencified what type of tool by anyway she is working with a tool
         Item mop = new Mop();
+        Item vehicle = new Vehicle(); 
         
         //ON DUTY
         gardener.workingMoodOn(); //she is on duty now and she can walk
@@ -41,6 +45,9 @@ public class TheKools {
         
         cleaner.workingMoodOn();
         ((Cleaner)cleaner).walk();
+        
+        teacher.workingMoodOn();
+        ((Teacher)teacher).drive();
     }
     
 }

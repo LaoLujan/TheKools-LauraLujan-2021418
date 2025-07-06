@@ -9,6 +9,9 @@ package the.kools.items;
  *
  * @author NHLUJ
  */
-public class Vehicle {
+public class Vehicle extends Item {
+    public Vehicle(){
+    super ("Vehicle");
+    }
     
 }

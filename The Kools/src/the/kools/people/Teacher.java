@@ -5,10 +5,22 @@
  */
 package the.kools.people;
 
+import the.kools.interfaces.Driving;
+
+
+
 /**
  *
  * @author NHLUJ
  */
-public class Teacher {
-    
+public class Teacher extends Person implements Driving {
+    public Teacher (String name, int age){
+    super (name, age);
+    }
+public void workingMoodOn() {
+    System.out.println(name + "This teacher is working very hard");
+}
+public void drive(){
+    System.out.println(name + "He is driving 2 hours to get to school");
+}
 }
