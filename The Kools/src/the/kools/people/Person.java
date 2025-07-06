@@ -14,4 +14,14 @@ that has to be used for the subclasses. It contains general characteristics that
 public abstract class Person {
     protected String name;
     protected int age;
+
+    //CONSTRUCTORS
+    public Person(String name, int age) { // The constuctor allows to access to this protected data
+        this.name = name;
+        this.age = age;
+    }
+
+
 }
+
+

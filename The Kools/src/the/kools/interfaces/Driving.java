@@ -9,6 +9,6 @@ package the.kools.interfaces;
  *
  * @author NHLUJ
  */
-public class Driving {
+public interface Driving {
     
 }

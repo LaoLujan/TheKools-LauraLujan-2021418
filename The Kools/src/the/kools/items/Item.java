@@ -13,6 +13,8 @@ package the.kools.items;
 public abstract class Item {
     protected String name;
 
+    
+    //CONSTRUCTORS
     public Item(String name) {//This constructor gives the chance to be called later on when we create a NEW object, (not done yet). We need the constructors 
         this.name = name;       //because the String name is protected, so we need to create an access door for it. 
     }
