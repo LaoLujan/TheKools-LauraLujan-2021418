@@ -5,10 +5,20 @@
  */
 package the.kools.people;
 
+import the.kools.interfaces.Walking;
+
 /**
  *
  * @author NHLUJ
  */
-public class Cleaner {
-    
+public class Cleaner extends Person implements Walking {
+
+ public Cleaner (String name, int age){
+    super(name, age);
+}
+public void workingMoodOn(){
+    System.out.println(name + "This cleaner is working hard");
+}
+public void walk(){
+    System.out.println(name + "This cleaner is walking around too");}
 }
