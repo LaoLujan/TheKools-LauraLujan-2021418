@@ -11,5 +11,5 @@ package the.kools.interfaces;
  */
 /**The interface give some behavior to all the people that in this case can drive. This interface is public so other classes can use it */
 public interface Driving {
-    void drive();
+    void drive(); //use void beacuse there is nothing to return when we "drive", but I'll print them out to verify is working
 }
