@@ -10,5 +10,5 @@ package the.kools.interfaces;
  * @author NHLUJ
  */
 public interface Cycling {
-    
+    void cycle();
 }

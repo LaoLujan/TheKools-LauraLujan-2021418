@@ -10,5 +10,6 @@ package the.kools.interfaces;
  * @author NHLUJ
  */
 public interface Walking {
+    void walk();
     
 }

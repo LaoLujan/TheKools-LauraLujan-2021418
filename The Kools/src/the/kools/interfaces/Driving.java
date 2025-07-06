@@ -9,6 +9,7 @@ package the.kools.interfaces;
  *
  * @author NHLUJ
  */
+/**The interface give some behavior to all the people that in this case can drive. This interface is public so other classes can use it */
 public interface Driving {
-    
+    void drive();
 }
