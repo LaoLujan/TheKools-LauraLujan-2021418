@@ -13,5 +13,8 @@ public class miniVan extends Item{
     public miniVan (){
     super ("miniVan");
 }
-    
+    @Override
+    public void use(){
+        System.out.println("Use the miniVan for work ");
+    }
 }

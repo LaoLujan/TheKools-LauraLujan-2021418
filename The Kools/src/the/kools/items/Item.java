@@ -19,5 +19,6 @@ public abstract class Item {
         this.name = name;       //because the String name is protected, so we need to create an access door for it. 
     }
     
-    
+    public abstract void use(); // This is the method that we are going to use to "use" out items. we are going to use them on the main file and 
+                            //it will be used by the subclases that depend from this file like Tool, Book etc.
 }

@@ -18,10 +18,10 @@ public class Gardener extends Person implements Walking { //Here I am specifying
     
     @Override 
    public void workingMoodOn(){  //this two publc voids methods means the actual performance of the action, like working, walking, driving
-       System.out.println(name + "is gardening rigth now");// print it for demostation but I think is not working anyway...UPDATE. IT IS WORKING NOW!
+       System.out.println(name + " is gardening rigth now");// print it for demostation but I think is not working anyway...UPDATE. IT IS WORKING NOW!
    }
    @Override
    public void walk(){
-       System.out.println(name + "Is walking around the garden");
+       System.out.println(name + " Is walking around the garden");
    }
 }

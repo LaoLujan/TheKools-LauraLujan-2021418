@@ -17,11 +17,11 @@ public class Student extends Person implements Cycling {
     }
     @Override
     public void workingMoodOn(){
-        System.out.println(name + "This Student is very punctual");
+        System.out.println(name + " This Student is very punctual");
     }
     @Override
     public void cycle(){
-        System.out.println(name + "Cycle every day to school");
+        System.out.println(name + " Cycle every day to school");
     }
 
    

@@ -13,5 +13,8 @@ public class Book extends Item {
     public Book(){
     super ("Book");
     }
-    
+    @Override
+    public void use(){
+        System.out.println("Use the book to study");
+    }
 }

@@ -17,11 +17,11 @@ super (name, age);
 }
     @Override
     public void workingMoodOn(){
-        System.out.println(name + "This man deliver envelopes all day");
+        System.out.println(name + " This man deliver envelopes all day");
     }
     @Override
     public void drive(){
-        System.out.println(name + "He drives to work");
+        System.out.println(name + " He drives to work");
     }
     
 }

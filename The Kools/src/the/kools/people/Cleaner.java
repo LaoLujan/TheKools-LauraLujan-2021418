@@ -18,9 +18,9 @@ public class Cleaner extends Person implements Walking {
 }
  @Override
 public void workingMoodOn(){
-    System.out.println(name + "This cleaner is working hard");
+    System.out.println(name + " This cleaner is working hard");
 }
 @Override
 public void walk(){
-    System.out.println(name + "This cleaner is walking around too");}
+    System.out.println(name + " This cleaner is walking around too");}
 }

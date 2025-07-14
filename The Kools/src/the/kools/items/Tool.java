@@ -14,5 +14,8 @@ public class Tool extends Item {  //This Tool class is a subclass of Item, thats
     super ("Tool"); // I specified in the Item class that item shloud have a name, but is not defined there, is defined here.
                        //So I call the super class and I give it a name
         }
-    
+    @Override
+    public void use(){
+        System.out.println("Use the tool to clean the garden");
+    }
 }

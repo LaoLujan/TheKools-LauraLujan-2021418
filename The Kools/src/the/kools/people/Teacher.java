@@ -19,10 +19,10 @@ public class Teacher extends Person implements Driving {
     }
     @Override
 public void workingMoodOn() {
-    System.out.println(name + "This teacher is working very hard");
+    System.out.println(name + " This teacher is working very hard");
 }
     @Override
 public void drive(){
-    System.out.println(name + "He is driving 2 hours to get to school");
+    System.out.println(name + " He is driving 2 hours to get to school");
 }
 }

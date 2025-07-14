@@ -13,5 +13,9 @@ public class Vehicle extends Item {
     public Vehicle(){
     super ("Vehicle");
     }
+    @Override
+    public void use(){
+        System.out.println("Use the vehicle for transport");
+    }
     
 }

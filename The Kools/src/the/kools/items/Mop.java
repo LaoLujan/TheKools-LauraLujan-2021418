@@ -13,4 +13,8 @@ public class Mop extends Item {
     public Mop(){
     super("Mop");
             }
+    @Override
+    public void use(){
+        System.out.println("Use the Mop to clean the floor");
+    }
 }
