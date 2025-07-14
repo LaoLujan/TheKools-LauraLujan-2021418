@@ -17,9 +17,11 @@ public class Teacher extends Person implements Driving {
     public Teacher (String name, int age){
     super (name, age);
     }
+    @Override
 public void workingMoodOn() {
     System.out.println(name + "This teacher is working very hard");
 }
+    @Override
 public void drive(){
     System.out.println(name + "He is driving 2 hours to get to school");
 }

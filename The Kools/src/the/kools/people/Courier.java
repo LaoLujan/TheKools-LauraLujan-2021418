@@ -15,9 +15,11 @@ public class Courier extends Person implements Driving {
     public Courier (String name, int age){
 super (name, age);
 }
+    @Override
     public void workingMoodOn(){
         System.out.println(name + "This man deliver envelopes all day");
     }
+    @Override
     public void drive(){
         System.out.println(name + "He drives to work");
     }

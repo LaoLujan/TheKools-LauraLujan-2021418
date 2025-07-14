@@ -16,9 +16,11 @@ public class Cleaner extends Person implements Walking {
  public Cleaner (String name, int age){
     super(name, age);
 }
+ @Override
 public void workingMoodOn(){
     System.out.println(name + "This cleaner is working hard");
 }
+@Override
 public void walk(){
     System.out.println(name + "This cleaner is walking around too");}
 }

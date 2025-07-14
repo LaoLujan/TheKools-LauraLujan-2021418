@@ -57,7 +57,7 @@ public class TheKools {
         ((Teacher)teacher).drive();
         
         student.workingMoodOn();
-        ((Student)student).Cycle();
+        ((Student)student).cycle();
         
         courier.workingMoodOn();
         ((Courier)courier).drive();
