@@ -1,11 +1,12 @@
-/*/*FIND THE GITHUB REPO HERE: https://github.com/LaoLujan/TheKools-LauraLujan-2021418
+/*FIND THE GITHUB REPO HERE: https://github.com/LaoLujan/TheKools-LauraLujan-2021418
+/*VIDE LINK HERE: https://drive.google.com/file/d/1bw2iDyPN2pJSJ4KTXwRe8laZBUhq0hWv/view?usp=sharing
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 package the.kools.people;
 
-/**
+/*
  *
  * @author NHLUJ
  */  
