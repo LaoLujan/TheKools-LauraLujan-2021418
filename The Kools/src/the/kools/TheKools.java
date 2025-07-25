@@ -1,4 +1,4 @@
-/*
+/*FIND THE GITHUB REPO HERE: https://github.com/LaoLujan/TheKools-LauraLujan-2021418
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -41,14 +41,14 @@ public class TheKools {
                 
         //NEW ITEMS        
         Item tool = new Tool(); // I should spencified what type of tool by anyway she is working with a tool
-        Item mop = new Mop();
+        Item mop = new Mop(); /// I am still not usinf this items, I am only declaring they exist and they are gonna be called later
         Item vehicle = new Vehicle(); 
         Item book = new Book();
         Item minivan = new miniVan();
         
         //ON DUTY
         gardener.workingMoodOn(); //she is on duty now and she can walk
-        ((Gardener)gardener).walk();
+        ((Gardener)gardener).walk(); // I am specifying my character CAN walk, but is not doing it yet.
         
         cleaner.workingMoodOn();
         ((Cleaner)cleaner).walk();
